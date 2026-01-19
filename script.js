@@ -12,6 +12,15 @@
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   };
+  // Close mobile menu when tapping outside
+  document.addEventListener('click', (e) => {
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+    if (!isOpen) return;
+
+    const clickedInsideMenu = menu.contains(e.target);
+    const clickedHamburger = btn.contains(e.target);
+    if (!clickedInsideMenu && !clickedHamburger) setState(false);
+  });
 
   btn.addEventListener('click', () => {
     const isOpen = btn.getAttribute('aria-expanded') === 'true';
