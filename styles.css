@@ -740,3 +740,74 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, summary:focus-visible
   opacity: .25;
 }
 */
+/* ===== Mobile hero fix ===== */
+@media (max-width: 600px){
+
+  /* قلل padding في الهيرو */
+  .hero{
+    padding: 34px 0 26px;
+  }
+
+  /* خلي الهيرو عمود واحد 100% */
+  .hero__grid{
+    grid-template-columns: 1fr !important;
+    gap: 18px;
+  }
+
+  /* عنوان أصغر حتى ما يكسر التصميم */
+  h1{
+    font-size: 30px;
+    line-height: 1.12;
+  }
+
+  /* خفف تفاصيل الميتا */
+  .hero__meta{
+    gap: 8px;
+  }
+  .meta__label{
+    min-width: 74px;
+    font-size: 12px;
+  }
+  .meta__value{
+    font-size: 14px;
+  }
+
+  /* الأزرار الرئيسية: صفين بدل تزاحم */
+  .hero__actions{
+    gap: 10px;
+  }
+  .hero__actions .btn{
+    width: calc(50% - 5px);
+    justify-content: center;
+  }
+
+  /* كرت الصورة: أصغر ومش ضخم */
+  .hero__media{
+    width: 100% !important;
+    padding: 16px !important;
+  }
+  .hero__photo,
+  .hero__photo--lg{
+    width: 240px !important;
+    height: 240px !important;
+    margin-bottom: 10px;
+  }
+
+  /* أزرار CV/GitHub تحت الصورة */
+  .hero__mediaLinks{
+    margin-top: 8px !important;
+    gap: 10px;
+  }
+}
+
+/* ===== Small phones (very narrow) ===== */
+@media (max-width: 380px){
+  .hero__actions .btn{
+    width: 100%;
+  }
+  .hero__photo,
+  .hero__photo--lg{
+    width: 210px !important;
+    height: 210px !important;
+  }
+}
