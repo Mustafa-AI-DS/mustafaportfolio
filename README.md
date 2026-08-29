@@ -1,35 +1,34 @@
-# Mustafa Abughareebeh - Portfolio (Static Website)
+# Mustafa Abughareebeh — Personal Portfolio
 
-This folder contains a simple, responsive personal portfolio website using the brand colors:
+A responsive personal portfolio website showcasing my work in **Data Science, Artificial Intelligence, Machine Learning, NLP, and Data Analytics**.
+
+🌐 **Live Portfolio:**  
+https://mustafa-ai-ds.github.io/mustafaportfolio/
+
+## Highlights
+
+- AI & Data Science projects
+- Machine Learning and NLP work
+- Power BI and Data Analytics projects
+- Certifications and technical training
+- Competitions, volunteering, and professional activities
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+
+## Main Colors
+
 - Navy: `#004aad`
 - Yellow: `#fdd04c`
 
-## Quick start
-- Double click `index.html` to open it in a browser.
-- For the best results (and working links), open the folder in VS Code and use the "Live Server" extension.
+## Author
 
-## Deploy on GitHub Pages (recommended)
-1. Create a GitHub repository (e.g., `mustafa-portfolio`).
-2. Upload all files in this folder (keep the `assets/` directory).
-3. In GitHub: **Settings → Pages → Build and deployment → Source**
-   - Select **Deploy from a branch**
-   - Branch: `main` (or `master`) / Folder: `/root`
-4. Your site will be live at: `https://<username>.github.io/<repo>/`
+**Mustafa Abughareebeh**
 
-## What to edit
-- `index.html`: content, project links, certificate links
-- `styles.css`: colors/spacing
-- `assets/`: CV, certificates, slide decks, profile photo
-
-## Add your profile photo
-Current placeholder image:
-- `assets/profile.svg`
-
-To use your real photo:
-1. Put your image in `assets/` (recommended: square JPG/PNG, e.g., `profile.jpg`).
-2. In `index.html`, find:
-   - `src="assets/profile.svg"`
-3. Replace it with:
-   - `src="assets/profile.jpg"`
-
-Tip: a square image (800x800) will look best.
+[LinkedIn](https://www.linkedin.com/in/mustafa-abughareebeh/) ·
+[Kaggle](https://www.kaggle.com/mustafaabughareebeh) ·
+[GitHub](https://github.com/Mustafa-AI-DS)
